@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ComparaAI</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:#e6edf3;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:#161b22;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#8b949e;
+    font-size:1.2rem;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#161b22;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:25px;
+    border:1px solid #30363d;
+}
+
+h2{
+    margin-bottom:15px;
+    color:#58a6ff;
+}
+
+ul{
+    margin-left:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table th,
+table td{
+    border:1px solid #30363d;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#21262d;
+}
+
+.badge{
+    display:inline-block;
+    background:#238636;
+    padding:8px 15px;
+    border-radius:20px;
+    margin:5px;
+}
+
+.code{
+    background:#010409;
+    padding:15px;
+    border-radius:8px;
+    overflow:auto;
+    margin-top:15px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#8b949e;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 ComparaAI</h1>
+    <p>Encontre a melhor compra, não apenas o menor preço.</p>
+
+    <div style="margin-top:20px;">
+        <span class="badge">Python</span>
+        <span class="badge">FastAPI</span>
+        <span class="badge">IA</span>
+        <span class="badge">Em Desenvolvimento</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📖 Sobre o Projeto</h2>
+
+        <p>
+            O ComparaAI é uma plataforma inteligente que compara produtos,
+            preços, avaliações e reputação das lojas para ajudar usuários a
+            encontrarem a melhor compra possível.
+        </p>
+
+        <br>
+
+        <p>O sistema considera:</p>
+
+        <ul>
+            <li>💰 Preço</li>
+            <li>⭐ Avaliações</li>
+            <li>🛒 Número de vendas</li>
+            <li>🏪 Reputação da loja</li>
+            <li>📈 Histórico de preços</li>
+            <li>🤖 Inteligência Artificial</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>✨ Funcionalidades</h2>
+
+        <ul>
+            <li>Pesquisa de produtos</li>
+            <li>Comparação de preços</li>
+            <li>Ranking inteligente</li>
+            <li>Score de confiança</li>
+            <li>Resumo de avaliações com IA</li>
+            <li>Alerta de queda de preço</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Exemplo de Resultado</h2>
+
+        <table>
+            <tr>
+                <th>Loja</th>
+                <th>Preço</th>
+                <th>Nota</th>
+                <th>Vendas</th>
+                <th>Score</th>
+            </tr>
+
+            <tr>
+                <td>Amazon</td>
+                <td>R$ 4.499</td>
+                <td>4.8</td>
+                <td>12.000</td>
+                <td>96</td>
+            </tr>
+
+            <tr>
+                <td>Mercado Livre</td>
+                <td>R$ 4.350</td>
+                <td>4.6</td>
+                <td>8.000</td>
+                <td>91</td>
+            </tr>
+
+            <tr>
+                <td>Magazine Luiza</td>
+                <td>R$ 4.590</td>
+                <td>4.9</td>
+                <td>6.500</td>
+                <td>94</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>🧠 Como o Score é Calculado</h2>
+
+        <ul>
+            <li>Preço → 30%</li>
+            <li>Avaliações → 40%</li>
+            <li>Quantidade de vendas → 20%</li>
+            <li>Reputação → 10%</li>
+        </ul>
+
+        <div class="code">
+            Score Final = 96/100
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Tecnologias</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>PostgreSQL</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>OpenAI API</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔮 Roadmap</h2>
+
+        <ul>
+            <li>✅ Comparação de preços</li>
+            <li>✅ Ranking de lojas</li>
+            <li>🔄 Histórico de preços</li>
+            <li>🔄 IA para avaliações</li>
+            <li>🔄 Aplicativo Mobile</li>
+            <li>🔄 Extensão para Chrome</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <h3>👨‍💻 Desenvolvido por Max</h3>
+    <p>ComparaAI — A melhor compra começa com a melhor informação.</p>
+</footer>
+
+</body>
+</html>
